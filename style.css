@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(./images/mk-s-rzqgwr1ewvU-unsplash.jpg);
+    background-size:cover;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+button{
+    padding: .7rem 1.5rem;
+    color: white;
+    border-style: none !important;
+    margin: 1rem 0;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 10rem;
+}
+
+#increment-btn{
+    background: darkred;
+}
+
+#save-btn{
+    background: green;
+}
+
+#save-el{
+    font-weight: bold;
+    font-size: 20px;
+}
+
